@@ -1,0 +1,428 @@
+# Japanese translation of libgksu.
+# Copyright (c) 2006 Rosetta Contributors and Canonical Ltd 2006
+# This file is distributed under the same license as the libgksu package.
+# Fumihito YOSHIDA <hito@kugutsu.org>
+# Hideki Yamane (Debian-JP) <henrich@debian.or.jp>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgksu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-10-26 12:57+0900\n"
+"PO-Revision-Date: 2008-10-25 08:23+0100\n"
+"Last-Translator: Hideki Yamane (Debian-JP) <henrich@debian.or.jp>\n"
+"Language-Team: Japanese <debian-japanese@lists.debian.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../libgksu/libgksu.c:122
+#, c-format
+msgid "Not using locking for read only lock file %s"
+msgstr "読み込み専用のロックファイル %s はロックとして使用しません"
+
+#: ../libgksu/libgksu.c:142
+#, c-format
+msgid "Not using locking for nfs mounted lock file %s"
+msgstr "nfs マウントされたロックファイル %s はロックとして使用しません"
+
+#: ../libgksu/libgksu.c:498
+msgid ""
+"<b><big>Could not grab your mouse.</big></b>\n"
+"\n"
+"A malicious client may be eavesdropping on your session or you may have just "
+"clicked a menu or some application just decided to get focus.\n"
+"\n"
+"Try again."
+msgstr ""
+"<b><big>マウス入力を取得することができませんでした。</big></b>\n"
+"\n"
+"悪意あるソフトウェアがあなたの入力を盗みとろうとしているか、あるいはメニュー"
+"をクリックした、もしくはいずれかのアプリケーションが入力フォーカスを得たこと"
+"が原因です。\n"
+"\n"
+"もう一度試してください。"
+
+#: ../libgksu/libgksu.c:510
+msgid ""
+"<b><big>Could not grab your keyboard.</big></b>\n"
+"\n"
+"A malicious client may be eavesdropping on your session or you may have just "
+"clicked a menu or some application just decided to get focus.\n"
+"\n"
+"Try again."
+msgstr ""
+"<b><big>キーボード入力を取得することができませんでした。</big></b>\n"
+"\n"
+"悪意あるソフトウェアがあなたの入力を盗みとろうとしているか、あるいはメニュー"
+"をクリックした、もしくはいずれかのアプリケーションが入力フォーカスを得たこと"
+"が原因です。\n"
+"\n"
+"もう一度試してください。"
+
+#: ../libgksu/libgksu.c:867
+#, c-format
+msgid ""
+"<b><big>Enter your password to perform administrative tasks</big></b>\n"
+"\n"
+"The application '%s' lets you modify essential parts of your system."
+msgstr ""
+"<b><big>管理作業を実行するために、あなたのパスワードを入力してください</"
+"big></b>\n"
+"\n"
+"アプリケーション '%s' は、システムの重要な部分を変更しようとしています。"
+
+#: ../libgksu/libgksu.c:874
+#, c-format
+msgid ""
+"<b><big>Enter your password to run the application '%s' as user %s</big></b>"
+msgstr ""
+"<b><big>アプリケーション '%s' をユーザ %s として実行するために、あなたのパス"
+"ワードを入力してください</big></b>"
+
+#: ../libgksu/libgksu.c:882
+#, c-format
+msgid ""
+"<b><big>Enter the administrative password</big></b>\n"
+"\n"
+"The application '%s' lets you modify essential parts of your system."
+msgstr ""
+"<b><big>管理者のパスワードを入力してください</big></b>\n"
+"\n"
+"アプリケーション '%s' は、システムの重要な部分を変更しようとしています。"
+
+#: ../libgksu/libgksu.c:889
+#, c-format
+msgid "<b><big>Enter the password of %s to run the application '%s'</big></b>"
+msgstr ""
+"<b><big>アプリケーション '%s' をユーザ %s として実行するためにパスワードを入"
+"力してください</big></b>"
+
+#: ../libgksu/libgksu.c:920
+msgid "Password prompt canceled."
+msgstr "パスワード入力プロンプトがキャンセルされました。"
+
+#: ../libgksu/libgksu.c:992
+#, c-format
+msgid ""
+"<b><big>Granted permissions without asking for password</big></b>\n"
+"\n"
+"The '%s' program was started with the privileges of the %s user without the "
+"need to ask for a password, due to your system's authentication mechanism "
+"setup.\n"
+"\n"
+"It is possible that you are being allowed to run specific programs as user %"
+"s without the need for a password, or that the password is cached.\n"
+"\n"
+"This is not a problem report; it's simply a notification to make sure you "
+"are aware of this."
+msgstr ""
+"<b><big>パスワードの確認なしで権限が付与されました。</big></b>\n"
+"\n"
+"プログラム '%s' は、システムの認証機構の設定により、パスワード入力なしで %s "
+"ユーザの権限で開始されました。\n"
+"\n"
+"これは、パスワード入力なしで %s ユーザの権限で動作することが許可されている"
+"か、パスワードがキャッシュされているためです。\n"
+"\n"
+"これは問題を報告するものではありません。あくまで、このことを忘れないよう注意"
+"を促すものです。"
+
+#: ../libgksu/libgksu.c:1016
+msgid "Do _not display this message again"
+msgstr "このメッセージを再び表示しない(_N)"
+
+#: ../libgksu/libgksu.c:1036
+msgid ""
+"<b>Would you like your screen to be \"grabbed\"\n"
+"while you enter the password?</b>\n"
+"\n"
+"This means all applications will be paused to avoid\n"
+"the eavesdropping of your password by a a malicious\n"
+"application while you type it."
+msgstr ""
+"<b>パスワードを入力する時、画面を \"うばう\" ようにしましょうか？</b>\n"
+"\n"
+"これにより、あらゆるアプリケーションを停止することで、悪意あるアプリケーショ"
+"ンがあなたのキー入力を盗みとることを防ぎます。"
+
+#: ../libgksu/libgksu.c:1313
+msgid "Granting Rights"
+msgstr "与えられた権限"
+
+#: ../libgksu/libgksu.c:1901
+msgid "gksu_run needs a command to be run, none was provided."
+msgstr ""
+"gksu_runは実行させるコマンド名を必要としますが、何も提供されませんでした。"
+
+#: ../libgksu/libgksu.c:1912
+msgid "The gksu-run-helper command was not found or is not executable."
+msgstr "gksu-run-helperコマンドは見つからなかったか、実行可能ではありません。"
+
+#: ../libgksu/libgksu.c:1920 ../libgksu/libgksu.c:2420
+msgid "Unable to copy the user's Xauthorization file."
+msgstr "ユーザのXauthorizationをコピーできませんでした"
+
+#: ../libgksu/libgksu.c:1966 ../libgksu/libgksu.c:2554
+#, c-format
+msgid "Failed to fork new process: %s"
+msgstr "新しいプロセスをフォークできませんでした : %s"
+
+#: ../libgksu/libgksu.c:2109
+msgid "Wrong password got from keyring."
+msgstr "キーリングに含まれるパスワードは正しくありません。"
+
+#: ../libgksu/libgksu.c:2113 ../libgksu/libgksu.c:2706
+msgid "Wrong password."
+msgstr "パスワードが間違っています。"
+
+#: ../libgksu/libgksu.c:2168 ../libgksu/libgksu.c:2182
+#, c-format
+msgid ""
+"Failed to communicate with gksu-run-helper.\n"
+"\n"
+"Received:\n"
+" %s\n"
+"While expecting:\n"
+" %s"
+msgstr ""
+"gksu-run-helperとの通信に失敗しました。\n"
+"受信済:\n"
+" %s\n"
+"処理内容:\n"
+" %s"
+
+#: ../libgksu/libgksu.c:2174
+#, c-format
+msgid ""
+"Failed to communicate with gksu-run-helper.\n"
+"\n"
+"Received bad string while expecting:\n"
+" %s"
+msgstr ""
+"gksu-run-helperとの通信に失敗しました。\n"
+"\n"
+"以下の処理中に解釈できない文字列を受け取りました。\n"
+" %s"
+
+#: ../libgksu/libgksu.c:2274
+#, c-format
+msgid "su terminated with %d status"
+msgstr "su はステータス %d で終了しました"
+
+#: ../libgksu/libgksu.c:2388
+msgid "gksu_sudo_run needs a command to be run, none was provided."
+msgstr ""
+"gksu_runは実行させるコマンド名を必要としますが、何も提供されませんでした。"
+
+#: ../libgksu/libgksu.c:2535 ../libgksu/libgksu.c:2544
+#, c-format
+msgid "Error creating pipe: %s"
+msgstr "パイプの構成に失敗しました : %s"
+
+#: ../libgksu/libgksu.c:2570
+#, c-format
+msgid "Failed to exec new process: %s"
+msgstr "新しいプロセスの実行に失敗しました： %s"
+
+#: ../libgksu/libgksu.c:2587 ../libgksu/libgksu.c:2597
+#, c-format
+msgid "Error opening pipe: %s"
+msgstr "パイプを開けませんでした : %s"
+
+#: ../libgksu/libgksu.c:2655
+msgid "Password: "
+msgstr "パスワード: "
+
+#: ../libgksu/libgksu.c:2709 ../libgksu/libgksu.c:2723
+msgid ""
+"The underlying authorization mechanism (sudo) does not allow you to run this "
+"program. Contact the system administrator."
+msgstr ""
+"基礎になっている認証方式(sudo)では、あなたがこのプログラムを実行することを許"
+"可していません。システム管理者に連絡してください。"
+
+#: ../libgksu/libgksu.c:2773
+#, c-format
+msgid "sudo terminated with %d status"
+msgstr "sudo は %d ステータスで終了しました"
+
+#: ../libgksuui/gksuui-dialog.c:149
+msgid "<b>You have capslock on</b>"
+msgstr "<b>capslockがオンになっています</b>"
+
+#: ../libgksuui/gksuui-dialog.c:219
+msgid "Remember password"
+msgstr "パスワードを記憶する"
+
+#: ../libgksuui/gksuui-dialog.c:236
+msgid "Save for this session"
+msgstr "このセッションを保存"
+
+#: ../libgksuui/gksuui-dialog.c:241
+msgid "Save in the keyring"
+msgstr "キーリングに保存する"
+
+#. label
+#: ../libgksuui/gksuui-dialog.c:335
+msgid "<span weight=\"bold\" size=\"larger\">Type the root password.</span>\n"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">rootのパスワードを入れてください</"
+"span>\n"
+
+#. entry label
+#: ../libgksuui/gksuui-dialog.c:356
+msgid "Password:"
+msgstr "パスワード:"
+
+#: ../gksu-properties/gksu-properties.c:248
+msgid "Failed to load glade file; please check your installation."
+msgstr ""
+".glade ファイルの読み込みに失敗しました; インストール状態を確認して下さい。"
+
+#: ../gksu-properties/gksu-properties.desktop.in.h:1
+msgid "Configure behavior of the privilege-granting tool"
+msgstr "権限を得るためのツールの振る舞いの設定"
+
+#: ../gksu-properties/gksu-properties.desktop.in.h:2
+msgid "Privilege granting"
+msgstr "権限の取得"
+
+#: ../gksu-properties/gksu-properties.glade.h:1
+msgid "<b>Behavior</b>"
+msgstr "<b>挙動</b>"
+
+#: ../gksu-properties/gksu-properties.glade.h:2
+msgid "<b>Screen Grabbing</b>"
+msgstr "<b>画面をロックする</b>"
+
+#: ../gksu-properties/gksu-properties.glade.h:3
+msgid "_Authentication mode:"
+msgstr "認証の種類(_A):"
+
+#: ../gksu-properties/gksu-properties.glade.h:4
+msgid "_Grab mode:"
+msgstr "占有モード(_G):"
+
+#: ../gksu-properties/gksu-properties.glade.h:5
+msgid ""
+"enable\n"
+"disable\n"
+"force enable\n"
+"prompt\n"
+msgstr ""
+"有効\n"
+"無効\n"
+"強制的に有効\n"
+"プロンプト\n"
+
+#: ../gksu-properties/gksu-properties.glade.h:10
+msgid "gtk-close"
+msgstr "gtk-close"
+
+#: ../gksu-properties/gksu-properties.glade.h:11
+msgid ""
+"su\n"
+"sudo"
+msgstr ""
+"su\n"
+"sudo"
+
+#: ../gksu.schemas.in.h:1
+msgid "Disable keyboard and mouse grab"
+msgstr "キーボードとマウスの占有を無効化する"
+
+#: ../gksu.schemas.in.h:2
+msgid "Display information message when no password is needed"
+msgstr "パスワードが必要ないときは情報を表示する"
+
+#: ../gksu.schemas.in.h:3
+msgid "Force keyboard and mouse grab"
+msgstr "キーボードとマウスの占有を強制する"
+
+#: ../gksu.schemas.in.h:4
+msgid ""
+"Grab keyboard and mouse even if -g has been passed as argument on the "
+"command line."
+msgstr ""
+"コマンドラインで-gオプションが与えられた場合はキーボードとマウスを占有する。"
+
+#: ../gksu.schemas.in.h:5
+msgid "Keyring to which passwords will be saved"
+msgstr "パスワードの保存のためにKeyringを使用する"
+
+#: ../gksu.schemas.in.h:6
+msgid "Prompt for grabbing"
+msgstr "占有時のプロンプト"
+
+#: ../gksu.schemas.in.h:7
+msgid "Save password to gnome-keyring"
+msgstr "gnome-keyring にパスワードを保存"
+
+#: ../gksu.schemas.in.h:8
+msgid "Sudo mode"
+msgstr "Sudo モード"
+
+#: ../gksu.schemas.in.h:9
+msgid ""
+"The name of the keyring gksu should use. Usual values are \"session\", which "
+"saves the password for the session, and \"default\", which saves the "
+"password with no timeout."
+msgstr ""
+"gksuが使用するキーリングのの名前を決めます。取りうる値は、パスワードをセッ"
+"ション単位で保存する「セッション」と、タイムアウトなしにパスワードを保存する"
+"「デフォルト」です。"
+
+#: ../gksu.schemas.in.h:10
+msgid ""
+"This option determines whether a message dialog will be displayed informing "
+"the user that the program is being run without the need of a password being "
+"asked for some reason."
+msgstr ""
+"このオプションは、何らかの理由でパスワードの確認が不要な場合、ユーザにパス"
+"ワード入力なしで権限が取得されたことを知らせるかどうかを決定します。"
+
+#: ../gksu.schemas.in.h:11
+msgid ""
+"This option will make gksu prompt the user if he wants to have the screen "
+"grabbed before entering the password. Notice that this only has an effect if "
+"force-grab is disabled."
+msgstr ""
+"このオプションを有効にすると、パスワードを入力する前に画面をつかむようにユー"
+"ザに促します。この設定は、強制的に画面を掴む動作が無効な場合にだけ機能しま"
+"す。"
+
+#: ../gksu.schemas.in.h:12
+msgid ""
+"Whether sudo should be the default backend method. This method is otherwise "
+"accessed though the -S switch or by running 'gksudo' instead of 'gksu'."
+msgstr ""
+"sudoをデフォルトのバックエンドメソッドにしますか？　そうしない場合、 -S ス"
+"イッチが与えられた場合か、「gksu」の代わりに「gksudo」として起動された場合に"
+"のみsudoが利用されます。"
+
+#: ../gksu.schemas.in.h:13
+msgid ""
+"Whether the keyboard and mouse grabbing should be turned off. This will make "
+"it possible for other X applications to listen to keyboard input events, "
+"thus making it not possible to shield from malicious applications which may "
+"be running."
+msgstr ""
+"キーボードとマウスを「つかむ」設定をオフにしました。他のXアプリケーションが"
+"キーボード入力イベントを取得することが可能になります。この結果、万が一悪意あ"
+"るアプリケーションが存在する場合には身を守ることができません。"
+
+#: ../gksu.schemas.in.h:14
+msgid ""
+"gksu can save the password you type to the gnome-keyring so you'll not be "
+"asked everytime"
+msgstr ""
+"gksuはパスワードをgnome-keyringに記憶させることを許可し、毎回パスワードを聞か"
+"れなくても済むようにすることができます"
+
+#: ../libgksu/gksu-run-helper.c:149
+#, c-format
+msgid "Failed to obtain xauth key: xauth binary not found at usual locations"
+msgstr ""
+"xauth keyの取得に失敗しました： あるべき場所にxauthが見つかりませんでした。"
+

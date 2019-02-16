@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --with autoreconf
+
+override_dh_autoreconf:
+	touch NEWS README
+	dh_autoreconf
+
+override_dh_auto_build:
+	cp debian/pos/*.po po/
+	dh_auto_build
+
+override_dh_auto_configure:
+	dh_auto_configure -- --disable-gtk-doc --libexecdir="\$${prefix}/lib" --libdir="\$${prefix}/lib"
